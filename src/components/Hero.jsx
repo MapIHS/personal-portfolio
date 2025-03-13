@@ -34,9 +34,14 @@ const Hero = () => {
               </p>
             </div>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-              <button className="btn btn-primary gap-2">
+              <a
+                href="/Maptuhul_Ihsan_CV.pdf"
+                download
+                className="btn btn-primary gap-2"
+                aria-label="Download CV"
+              >
                 <FaFileDownload /> Download CV
-              </button>
+              </a>
               <a
                 href="https://github.com/MapIhs"
                 target="_blank"
