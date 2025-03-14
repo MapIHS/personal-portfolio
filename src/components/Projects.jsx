@@ -9,6 +9,22 @@ const Projects = () => {
       playstore: "https://play.google.com/store/apps/details?id=com.ihdev.conito",
       tags: ["Flutter", "NestJs", "GetX", "Firebase"],
     },
+    {
+      title: "Personal Portfolio",
+      description: "A personal portfolio website showcasing my projects, skills, and experiences. Built with modern web technologies and hosted on Vercel.",
+      image: "https://storage.ihview.live/images/1741968638497884762.png",
+      tags: ["React", "Tailwind CSS", "Vercel", "DaisyUI"],
+      github: "https://github.com/MapIHS/personal-portfolio",
+      demo: "https://mapihs.vercel.app/",
+    },
+    {
+      title: "Image Uploader",
+      description: "A RESTful API for uploading and managing images. Built with Go and Fiber, utilizing Gorm for ORM and PostgreSQL for database management.",
+      image: "https://storage.ihview.live/images/1741968027747612918.png",
+      tags: ["Go", "Fiber", "Gorm", "PostgreSQL"],
+      github: "https://github.com/MapIHS/go-image-uploader",
+      demo: "https://storage.ihview.live/",
+    },
   ];
 
   return (
