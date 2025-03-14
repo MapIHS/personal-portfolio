@@ -41,7 +41,7 @@ function Experience() {
         id: 2,
         title: "Belajar Fundamental Aplikasi Flutter",
         institution: "Dicoding Academy",
-        duration: "2025",
+        duration: "12 Jan 2025 - 11 Mar 2025",
         location: "Remote",
         description: [
           "Fundamental Flutter: Implemented lifecycle and widget interactions to enhance user experience. (8 hours 30 minutes)",
