@@ -135,21 +135,19 @@ function Experience() {
                         {activeTab === "education" && item.institution}
                       </h4>
                       <div className="flex items-center mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                        <FaCalendarAlt className="mr-2" />
-                        {item.duration}
-                      </div>
-                      <div className="text-gray-500 dark:text-gray-400 text-sm mt-1 mb-4">
-                        {item.location}
-                      </div>
-                      <ul
-                        className={`space-y-2 text-gray-600 dark:text-gray-400`}
-                      >
-                        {item.description.map((desc, i) => (
-                          <li key={i} className="flex items-start">
-                            <div className="w-full">{desc}</div>
-                          </li>
-                        ))}
-                      </ul>
+                      <FaCalendarAlt className="mr-2" /> 
+                      {item.duration}
+                    </div>
+                    <div className="text-gray-500 dark:text-gray-400 text-sm mt-1 mb-4">
+                      {item.location}
+                    </div>
+                    <ul className={`space-y-2 text-gray-600 dark:text-gray-400 ${index % 2 === 1 ? 'md:text-right' : 'md:text-left'}`}>
+                      {item.description.map((desc, i) => (
+                        <li key={i} className="flex items-start">
+                          <div className="w-full">{desc}</div>
+                        </li>
+                      ))}
+                    </ul>
                     </div>
                   </div>
 
