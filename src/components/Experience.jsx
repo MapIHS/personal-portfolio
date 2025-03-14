@@ -12,23 +12,29 @@ function Experience() {
       {
         id: 1,
         title: "Backend Development",
-        client: "RESTful APIs",
+        client: "Undisclosed",
         duration: "Oct 2023 - Oct 2024",
         location: "Remote",
         description: [
-            "Developed RESTful APIs for client's web application",
+          "Developed RESTful APIs for client's web application",
+          "Implemented authentication and authorization mechanisms",
+          "Optimized database queries for better performance",
+          "Collaborated with frontend developers to integrate APIs",
         ],
       },
     ],
     education: [
       {
         id: 1,
-        title: "Ilmu Pengetahuan Sosial",
+        title: "Social Sciences",
         institution: "SMAN 1 Bantarbolang",
         duration: "2021 - 2024",
-        location: "Bantarbolang, Indonesia",
+        location: "Bantarbolang, Pemalang, Central Java, Indonesia",
         description: [
             "Studied social sciences with a focus on economics and history",
+            "Participated in various extracurricular activities and clubs",
+            "Completed a research project on local economic development",
+            "Graduated with honors and received a scholarship for further studies",
         ],
       },
     ],
