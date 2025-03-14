@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Conito",
-      description: "Aplikasi Baca Manhwa dan Manhua Gratis Tanpa Iklan Dengan lebih dari 50+ Bahasa yang tersedia",
+      description: "Free Manhwa and Manhua Reading App Without Ads With more than 50+ Languages available. Conito offers a seamless reading experience with a vast collection of comics from various genres and languages.",
       image: "https://i.ibb.co.com/tTHYVf3q/741shots-so.png",
       playstore: "https://play.google.com/store/apps/details?id=com.ihdev.conito",
       tags: ["Flutter", "NestJs", "GetX", "Firebase"],
