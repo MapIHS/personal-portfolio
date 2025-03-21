@@ -22,6 +22,13 @@ body.dark-theme {
   background: var(--bg-gradient-dark);
 }
 
+/* Apply dark theme when system preference is dark */
+@media (prefers-color-scheme: dark) {
+  body:not(.light-theme) {
+    background: var(--bg-gradient-dark);
+  }
+}
+
 .loader {
   display: flex;
   justify-content: center;
